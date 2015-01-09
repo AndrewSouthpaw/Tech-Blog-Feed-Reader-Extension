@@ -1,0 +1,21 @@
+{
+  "manifest_version" : 2,
+  "name": "RSS Fetcher",
+  "version": "0.1",
+
+  "description": "Keep up with the latest from Andrew Southpaw.",
+  "icons": { "16" : "images/icon2.png"},
+ 			/*"48" : "images/48.png",
+			"128" : "images/128.png"},*/
+  "homepage_url": "http://www.andrewsouthpaw.com/",
+	"background": {
+    "page" : "background.html" },
+	"permissions": [
+	  "http://www.andrewsouthpaw.com/rss/*"
+	],
+	"browser_action": {
+    "default_icon": "images/icon2.png", 
+    "default_title": "AndrewSouthpaw Notifier",      
+    "default_popup": "popup.html"       
+  }
+}
